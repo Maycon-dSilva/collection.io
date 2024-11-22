@@ -1,0 +1,87 @@
+body{
+    background-color: #FFFFF3;
+}
+
+#cardMessage{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 60%;
+    height: auto;  
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+#cardImg{
+    width: 30%;
+    height: auto;
+    border-radius: 10px 50px 50px 50px;
+    margin-left: 35%;
+}
+
+
+#cardTitle{
+    text-align: center;
+    font-family: "Lora", serif;
+    font-size: 50px;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#cardText{
+    font-family: "Lora", serif;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: normal;
+    text-indent: 40px;
+    margin-bottom: 5%;
+    padding: 20px;
+    border: 2px solid #214001;
+    border-radius: 15px 40px 40px 40px;
+}
+
+#btn-collection{
+    width: 30%;
+    margin-left: 35%;
+    background: #F2C9BB;
+    border: 1px solid;
+    border-color: #F2C9BB;
+    border-radius: 5px 20px 20px 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Lora", serif;
+    font-style: normal;
+}
+
+#btn-collection:hover{
+    cursor: pointer;
+    border-color: #BDF24B;
+    background-color: #BDF24B;
+}
+
+@media (max-width: 768px) {
+
+    #cardMessage{
+        width: 100%;
+        margin: 10% 0 0 0;
+        padding: 0;
+    }
+
+    #cardImg{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #cardTitle{
+        font-size: 30px;
+    }
+
+    #btn-collection{
+        width: 40%;
+        margin-top: 2%;
+        margin-left: 30%;
+    }
+}
